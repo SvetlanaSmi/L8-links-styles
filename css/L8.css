@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap');
+
+html {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+a {
+    color: hsl(7, 90%, 41%);
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(7, 7, 7);
+    text-decoration: rgb(194, 245, 12) overline double;
+}
+
+a:visited {
+    color: rgb(131, 40, 206);
+}
+
+a:hover {
+    color: white;
+    background-color: rgba(133, 128, 128, 0.74);
+    font-size: x-large;
+}
+
+a:focus {
+    color: rgb(0, 7, 7);
+    outline: rgb(142, 3, 255) double 4px;
+    outline-offset: 2px;
+    background-color: rgb(204, 132, 204);
+}
+
+a:active {
+    color: red;
+    background-color: green;
+}
+
+a:hover:focus {
+    color: white;
+}
+
+img {
+    width: 500px;
+}
+
+img:hover {
+    cursor: pointer;
+    outline: rgb(77, 156, 3) dotted 6px;
+    outline-offset: .3em;
+}
+
